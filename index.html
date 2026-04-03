@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Styles.css">
+    <title>Banana Bro | Computer Science Student</title>
+</head>
+
+<body>
+    <header class="hero-sct" id="home">
+        <div class="hero-bg"></div>
+
+        <div class="hero-content">
+            <h1>Hello, I'm <span class="name">Ralph</span></h1>
+            <p>Developer / Designer / Problem Solver</p>
+            <a href="#about" class="cta-btn"> View my work</a>
+        </div>
+    </header>
+    <nav class="navbar">
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact Me</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="about" class="about-sct">
+            <h1 class="section-title"><span>About Me</span></h1>
+            <div class="about-content">
+                <div class="intro-left">
+                    <img src="Media/image.png" alt="Profile" class="profile-pic">
+                    <div class="Introduction">
+                        <h2 class="Intro-title">Who I Am</h2>
+                        <p>
+                            I'm a Computer Science student passionate about building digital experiences,
+                            solving problems, and combining creativity with technical thinking. I enjoy building both
+                            digital interfaces and tangible systems that solve practical problems.
+                            Whenever I am not on the computer I am usually spending my time in the gym, playing games
+                            and reading.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="bento-grid">
+                    <div class="card skills">
+                        <h2>SKILLS</h2>
+                        <ul>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>JAVA</li>
+                            <li>PYTHON</li>
+                            <li>C++</li>
+                        </ul>
+                    </div>
+
+                    <div class="card tools">
+                        <h2>TOOLS</h2>
+                        <ul>
+                            <li>Figma</li>
+                            <li>Arduino</li>
+                            <li>Git</li>
+                            <li>VS Code</li>
+                            <li>Virtual Machines</li>
+                        </ul>
+                    </div>
+
+                    <div class="card interests">
+                        <h2>INTERESTS</h2>
+                        <ul>
+                            <li>Web Development</li>
+                            <li>IoT</li>
+                            <li>Software Engineering</li>
+                            <li>Game Development</li>
+                            <li>Music</li>
+                            <li>Photography</li>
+                        </ul>
+                    </div>
+
+                    <div class="card goals">
+                        <h2>GOALS</h2>
+                        <p>To get better at problem-solving and development. Enhancing my creativity and designing.
+                        </p>
+                    </div>
+
+                    <div class="card current">
+                        <h2>Currently Learning</h2>
+                        <ul>
+                            <li>Game scripts</li>
+                            <li>Front-End Animation</li>
+                            <li>Problem-Solving</li>
+                            <li>Back-End Enhancements</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="projects" class="projects-sct">
+            <h1 class="section-title"><span>Projects</span></h1>
+            <div class="project project-1">
+                <img loading="lazy" src="Media/V1.png" alt="Online Portfolio V1" class="project-img">
+                <div class="project-info">
+                    <h2 class="project-title">Online Portfolio V1.</h2>
+                    <p class="project-desc">First version of my personal portfolio focused on layout structure, visual
+                        hierarchy, and responsive front-end design using semantic HTML and CSS.</p>
+                    <a href="#" class="cta-btn">Learn More</a>
+                </div>
+            </div>
+
+            <div class="project project-2 reverse">
+                <img loading="lazy" src="Media/Iot.jpg" alt="Prototype of IoT Parking System" class="project-img">
+                <div class="project-info">
+                    <h2 class="project-title">IoT Parking System</h2>
+                    <p class="project-desc">A school project integrating sensors and microcontroller logic to improve
+                        parking
+                        space monitoring and automation.</p>
+                    <a href="#" class="cta-btn">Learn More</a>
+                </div>
+            </div>
+
+            <div class="project project-3">
+                <img loading="lazy" src="Media/robot.jpg" alt="Robot design" class="project-img">
+                <div class="project-info">
+                    <h2 class="project-title">Combat Robot Design</h2>
+                    <p class="project-desc">Designed and built a competition robot featuring strategic mechanical
+                        elements
+                        including dual ramp systems for immobilizing and flipping opponents.</p>
+                    <a href="#" class="cta-btn">Learn More</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact-sct">
+            <h1 class="section-title"><span>Contact Me</span></h1>
+            <h2 class="contact-msg">Want to reach out to ask questions or work together? Submit your details and we can
+                get started.</h2>
+
+            <div class="contact-container">
+                <form class="contact-form">
+                    <input type="text" id="name" name="name" placeholder="Your Name" required>
+
+                    <input type="email" id="email" name="email" placeholder="Your Email" required>
+
+                    <input type="tel" id="phone" name="phone" placeholder="Phone Number">
+
+                    <textarea id="message" name="message" rows="6" placeholder="Your Message" required></textarea>
+
+                    <button type="submit" class="contact-btn">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-about">
+                <h3>Ralph</h3>
+                <p>Computer Science Student | Developer | Designer</p>
+            </div>
+
+            <div class="footer-social">
+                <h3>Connect with me</h3>
+                <div class="social-links">
+                    <a href="https://github.com/bananabroishungry" target="_blank" rel="noopener noreferrer">GitHub</a>
+                    <a href="" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+                    <a href="mailto:workpotato434@gmail.com">Email</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; 2026 Ralph. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script id="59274">
+        const projects = document.querySelectorAll('.project');
+
+        const observer = new IntersectionObserver(entries => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('show');
+                    observer.unobserve(entry.target);
+                }
+            });
+        });
+
+        projects.forEach(project => {
+            observer.observe(project);
+        });
+    </script>
+
+    <script id="5f9n2k">
+        const sections = document.querySelectorAll("section, header");
+        const navLinks = document.querySelectorAll(".nav-links a");
+
+        window.addEventListener("scroll", () => {
+            let current = "";
+
+            sections.forEach(section => {
+                const sectionTop = section.offsetTop - 120;
+                const sectionHeight = section.offsetHeight;
+
+                if (scrollY >= sectionTop) {
+                    current = section.getAttribute("id");
+                }
+            });
+
+            navLinks.forEach(link => {
+                link.classList.remove("active");
+
+                if (link.getAttribute("href") === `#${current}`) {
+                    link.classList.add("active");
+                }
+            });
+        });
+    </script>
+</body>
+
+</html>
